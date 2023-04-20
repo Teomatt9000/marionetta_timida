@@ -157,7 +157,7 @@ async function createDetector() {
 	const mediaPipeConfig = {
 		runtime: "mediapipe",
 		modelType: "full",
-		maxHands: 1,
+		maxHands: 2,
 		solutionPath: `https://cdn.jsdelivr.net/npm/@mediapipe/hands`,
 	}
 	
